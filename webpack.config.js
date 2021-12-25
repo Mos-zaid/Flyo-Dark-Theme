@@ -16,11 +16,8 @@ module.exports = {
     path: path.resolve(__dirname, 'App'),
   },
   devServer: {
-    // proxy: { // proxy URLs to backend development server
-    //   '/api': 'http://localhost:3000'
-    // },
-    static: path.join(__dirname, 'App'), // boolean | string | array | object, static file location
-    hot: true, // hot module replacement. Depends on HotModuleReplacementPlugin
+    static: path.join(__dirname, 'App'), 
+    hot: true, 
   },
   module: {
     rules: [

@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+section{
+    padding-bottom: 90px;
+}
+
+body{
+    background-color: var(--clr-Dark-blue-main-background);
+    color: var(--clr-Neutral-white);
+    font-family:var(--ff-body) ;
+    font-weight: 400;
+    font-size: calc(12px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--ff-heading);
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container--wide{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.btn{
+    padding: 10px 50px;
+    background-color: var(--clr-Blue-call-to-action);
+    color: var(--clr-Neutral-white);
+    border: 1px var(--clr-Blue-call-to-action) solid;
+    border-radius: 20px;
+    font-weight: 700;
+}

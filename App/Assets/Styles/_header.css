@@ -1,0 +1,34 @@
+.site-header{
+    
+    &-container{
+        width: 90%;
+        margin: 15px auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 0.75rem;
+    }
+
+    &__logo{
+        height: 25px;
+    }
+
+    &__nav > nav > ul{
+        display: flex;
+    }
+
+    &__nav > nav > ul > li{
+        list-style-type: none;
+        padding: 0 0.48rem;
+    }
+
+    &__nav > nav > ul > li :nth-last-child(1){
+        padding: 0 0;
+    }
+
+    &__nav > nav > ul > li >a{
+        text-decoration: none;
+        color: var(--clr-Neutral-white);
+    }
+
+}

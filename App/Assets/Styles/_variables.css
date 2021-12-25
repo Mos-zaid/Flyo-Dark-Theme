@@ -1,0 +1,19 @@
+:root{
+    --clr-Dark-blue-intro-email : hsl(217, 28%, 15%); 
+    --clr-Dark-blue-main-background : hsl(218, 28%, 13%);
+    --clr-Dark-blue-footer-background : hsl(216, 53%, 9%);
+    --clr-Dark-blue-testimonials-background : hsl(219, 30%, 18%);
+    --clr-Cyan-call-to-action : hsl(176, 68%, 64%);
+    --clr-Blue-call-to-action: hsl(198, 60%, 50%);
+    --clr-Light-red: hsl(0, 100%, 63%);
+    --clr-Neutral-white: hsl(0, 0%, 100%);
+
+    --ff-body: 'Open Sans', sans-serif;
+    --ff-heading: 'Raleway', sans-serif;
+
+    --fs-xl: ;
+    --fs-600: ;
+    --fs-500: ;
+    --fs-400: ;
+}
+

@@ -1,0 +1,13 @@
+.about-us{
+
+    &__item{
+        padding-bottom: 30px;
+        margin: 0 auto;
+    }
+
+    &__item > img{
+        height: 60px;
+        width: auto;
+        margin: 20px;
+    }
+}

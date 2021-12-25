@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
 @import 'normalize.css';
-body{
-    background-color: red;
-}
+@import '_variables.css';
+@import '_general.css';
+@import '_header.css';
+@import '_banner.css';
+@import '_about-us.css';
+@import '_footer.css';
+
 
 .test{
     &__full{
