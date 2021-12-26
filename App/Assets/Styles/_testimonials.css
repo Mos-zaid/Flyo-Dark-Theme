@@ -1,0 +1,49 @@
+.testimonials{
+    margin-top: 4.25rem;
+    /*
+    &::before{
+        content: url("../images/bg-quotes.png");
+    }
+    */
+
+    &__quotes-icon{
+        width: 25px;
+        margin-left: 13vw;
+        margin-bottom: 5px;
+    }
+
+    &__item{
+        width: 90%;
+        margin: 0 auto;
+        padding: 1.3rem ;
+        background-color: var(--clr-Dark-blue-testimonials-background);
+    }
+
+    &__description{
+        font-size: 0.875rem;
+        margin: 0;
+        line-height: 1.5;
+        letter-spacing: 0.03125rem
+    }
+
+    &__image{
+        width: 1.5925rem;
+        border-radius: 50%;
+    }
+
+    &__user-profile{
+        margin-top: 1rem;
+    }
+
+    &__author{
+        font-size: 0.625rem;
+        margin: 0 0 0.5rem 0;
+    }
+
+    &__role{
+        font-size: 0.5rem;
+        font-weight: 400;
+        margin: 0;
+        font-family: var(--ff-body);
+    }
+}

@@ -1,10 +1,27 @@
 .banner{
-    
-    &__headline{
+    background-color: var(--clr-Dark-blue-intro-email);
 
+    &__image{
+        margin-top: 30px;
+        position: relative;
+        z-index: 200;
+    }
+
+    &__image-float{
+        position: absolute;
+        top: 290px;
+        left: 0;
+    }
+
+    &__headline{
+        position: relative;
+        z-index: 200;
+        margin-top: 30px;
+        line-height: 1.5;
     }
 
     &__subtitle{
+        line-height: 1.5;
 
     }
 

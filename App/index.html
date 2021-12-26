@@ -15,7 +15,7 @@
   </style>
 </head>
 <body>
-  <header>
+  <header class="site-header">
     <div class="site-header-container">
       <div class="site-header__logo-container">
         <img class="site-header__logo" src="./Assets/images/logo.svg" alt="">
@@ -36,20 +36,20 @@
 
   <main>
     <!-- Banner Section -->
-    <section>
+    <section class="banner">
       <div class="container">
-        <div class="banner">
-          <img src="./Assets/images/bg-curvy-mobile.svg" alt="">
-          <img src="./Assets/images/illustration-intro.png" alt="">
-          <h1 class="banner__headline">All your files in one secure location, accessible anywhere.</h1>
-          <p class="banner__subtitle">
-            Fylo stores all your most important files in one secure location. Access them wherever 
-            you need, share and collaborate with friends family, and co-workers.          
-          </p>
-          <button class="btn banner__btn">Get Started</button>
+        <div class="banner__item">
+          <img class="banner__image"src="./Assets/images/illustration-intro.png" alt="">
+          <img class="banner__image-float" src="./Assets/images/bg-curvy-mobile.svg" alt="">
+          <h1 class="banner__headline">All your files in one secure location, accessible anywhere.</h1>            
+            <p class="banner__subtitle">
+              Fylo stores all your most important files in one secure location. Access them wherever 
+              you need, share and collaborate with friends family, and co-workers.          
+            </p>
+            <button class="btn banner__btn">Get Started</button>
         </div>
-
       </div>
+
     
     </section>
 
@@ -107,43 +107,75 @@
             <p class="stay-productive__description">
               Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
               storage needs.
-              <br>
+            </p>
+            <p class="pdn-top stay-productive__description">
               Securely share files and folders with friends, family and colleagues for live collaboration. No email 
               attachments required.
             </p>
 
-            <a href="#"> See how Fylo works </a>
+            <a class="stay-productive__link" href="#"> See how Fylo works 
+              <img class="stay-productive__link__icon" src="./Assets/images/icon-arrow.svg" alt="" aria-hidden="true">
+            </a>
+            
           </div>
         </div>
       </div>
     </section>
 
     <!-- Testimonials section -->
-    <section>
-      <div class="container--wide row-3 testimonials">
+    <section class="testimonials" >
+      <img class="testimonials__quotes-icon" src="./Assets/images/bg-quotes.png" alt="">
+      <div class="container--wide row-3">
         <div class="testimonials__item">
-          <p class="testimonials__description">  
+          <blockquote class="testimonials__description">  
             Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
             become a well-oiled collaboration machine.
-          </p>
-          <h4 class="testimonials__author">Satish Patel</h4>
-          <h5 class="testimonials__role">Founder & CEO, Huddle</h5>
+          </blockquote>
+          <div class="testimonials__user-profile">
+            <div class="row-2--permanent">
+              <div>
+                <img class="testimonials__image" src="./Assets/images/profile-1.jpg" alt="">
+              </div>
+              <div>
+                <h4 class="testimonials__author">Satish Patel</h4>
+                <h5 class="testimonials__role">Founder & CEO, Huddle</h5>  
+              </div>
+            </div>
+          </div>
         </div>
         <div class="testimonials__item">
-          <p class="testimonials__description">
+          <blockquote class="testimonials__description">
             Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
             become a well-oiled collaboration machine.
-          </p>
-          <h4 class="testimonials__author">Bruce McKenzie</h4>
-          <h5 class="testimonials__role">Founder & CEO, Huddle</h5>
+          </blockquote>
+          <div class="testimonials__user-profile">
+            <div class="row-2--permanent">
+              <div>
+                <img class="testimonials__image" src="./Assets/images/profile-2.jpg" alt="">
+              </div>
+              <div>
+                <h4 class="testimonials__author">Bruce McKenzie</h4>
+                <h5 class="testimonials__role">Founder & CEO, Huddle</h5>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="testimonials__item">
-          <p class="testimonials__description">
+          <blockquote class="testimonials__description">
           Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
           become a well-oiled collaboration machine.
-          </p>
-          <h4 class="testimonials__author">Iva Boyd</h4>
-          <h5 class="testimonials__role">Founder & CEO, Huddle</h5>
+          </blockquote>
+          <div class="testimonials__user-profile">
+            <div class="row-2--permanent">
+              <div>
+                <img class="testimonials__image" src="./Assets/images/profile-1.jpg" alt="">
+              </div>
+              <div>
+                <h4 class="testimonials__author">Iva Boyd</h4>
+                <h5 class="testimonials__role">Founder & CEO, Huddle</h5>  
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -156,7 +188,10 @@
           It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
           questions, our support team would be happy to help you.
         </p>
-        <button class="btn email__btn">Get Started For Free</button>
+        <div class="row-2">
+          <input class="email__input" type="email" placeholder="email@example.com">
+          <button class="btn email__btn">Get Started For Free</button>
+        </div>
       </div>
     </section>
 

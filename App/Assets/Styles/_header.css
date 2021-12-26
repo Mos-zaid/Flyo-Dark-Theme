@@ -1,8 +1,11 @@
 .site-header{
+
+    background-color: var(--clr-Dark-blue-intro-email);
     
     &-container{
         width: 90%;
-        margin: 15px auto;
+        margin: 0 auto;
+        padding: 15px;
         display: flex;
         align-items: center;
         justify-content: space-between;
