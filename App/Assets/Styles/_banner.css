@@ -1,5 +1,5 @@
 .banner{
-    background-color: var(--clr-Dark-blue-intro-email);
+    background: linear-gradient(0deg, var(--clr-Dark-blue-main-background) 50%, var(--clr-Dark-blue-intro-email) 50%);
 
     &__image{
         margin-top: 30px;
@@ -22,10 +22,12 @@
 
     &__subtitle{
         line-height: 1.5;
+        font-size: 0.9375rem;
+        line-height: 1.4375rem;
 
     }
 
     &__btn{
-        
+        margin: 1rem 0;
     }
 }

@@ -1,4 +1,33 @@
 .email{
-   width: 80%;
-   background-color: var(--clr-Dark-blue-intro-email); 
+    position: absolute;
+    top: -160px;
+    left: 5%;
+    right: 5%;
+    z-index: 200;
+    padding: 1.5rem 1.875rem;
+    background-color: var(--clr-Dark-blue-intro-email); 
+    letter-spacing: 0.00525rem;
+    border-radius: 0.6125rem;
+    box-shadow: rgb(0 0 0 / 50%) 0px 5px 15px -3px;
+    line-height: 1.5;
+
+    &__headline{
+        font-size: 1.4375rem;
+    }
+
+    &__description{
+        font-size: 0.875rem;
+    }
+
+    &__input{
+        padding: 0.875rem 1.875rem;
+        border-radius: 3.125rem;
+        border: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    &__btn{
+        font-size: 0.875rem;
+    }
 }
